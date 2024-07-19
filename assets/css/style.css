@@ -29,13 +29,9 @@ section {
     margin-left: -12px;
     margin-right: -12px;
 }
-/* .col-5{
+
+.col-5 {
     width: 41.66%;
-    padding-left: 12px;
-    padding-right: 12px;
-} */
-.col-6 {
-    width: 50%;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -52,11 +48,10 @@ section {
 
 .box-1 {
     max-width: max-content;
-    height: 300px;
     border-bottom: 2px solid rgba(235, 234, 237, 1)
 }
 
-h1 {
+.heading {
     color: rgba(30, 14, 98, 1);
     font-family: "DM Sans", sans-serif;
     font-size: 42px;
@@ -65,14 +60,15 @@ h1 {
     text-align: left;
 }
 
-p {
+.paragraph {
     color: rgba(21, 20, 57, 0.4);
     font-family: "DM Sans", sans-serif;
     font-size: 16px;
     line-height: 26px;
     text-align: left;
-    margin-top: 15px;
-    margin-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 100px;
 }
 
 .smallbox {
@@ -80,10 +76,17 @@ p {
     display: flex;
     align-items: center;
     flex-direction: row;
-
 }
 
-h2 {
+.smallbox-2 {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 45px;
+}
+
+h2 a {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -107,12 +110,11 @@ h3 {
 .card {
     border-radius: 7px;
     background: rgba(235, 234, 237, 1);
-    padding: 50px 50px 60px 60px;
+    padding: 40px 60px;
     margin-top: 50px;
-    width: 470px;
 }
 
-label {
+.label-input {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     line-height: 26px;
@@ -123,13 +125,14 @@ label {
 }
 
 .type-1 {
-    padding: 12px 155px 12px 20px;
+    padding: 12px 145px 12px 20px;
     border-radius: 20px;
     border: none;
     margin-top: 7px;
     font-size: 14px;
     margin-bottom: 30px;
     font-family: "DM Sans", sans-serif;
+    width: 100%;
 }
 
 .type-2 {
@@ -139,10 +142,11 @@ label {
     margin-top: 7px;
     margin-bottom: 20px;
     font-family: "DM Sans", sans-serif;
+    width: 100%;
 }
 
 .type-3 {
-    padding: 12px 70px 12px 20px;
+    padding: 12px 40px 12px 20px;
     border-radius: 20px;
     border: none;
     margin-top: 7px;
@@ -150,9 +154,10 @@ label {
     font-family: "DM Sans", sans-serif;
 }
 
-button {
-    padding: 12px 23px 12px 23px;
-    border-radius: 100px;
+.btn {
+    padding: 10px 20px;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 50px;
     background: rgba(37, 218, 197, 1);
     color: white;
     margin-left: 10px;
@@ -160,19 +165,22 @@ button {
     font-weight: 500;
 }
 
-.map {
-    /* width: 370px; */
-    /* height: 230px; */
+.w-100 {
     width: 100%;
+
 }
 
-.margin{
-    margin-top: 50px;
+.name-3 {
+    display: flex;
+}
+
+.map {
+    height: px;
 }
 
 @media (min-width:786px) {
-    .col-md-6 {
-        width: 50%;
+    .col-md-5 {
+        width: 41.66%;
         padding-left: 12px;
         padding-right: 12px;
     }
